@@ -1,0 +1,298 @@
+
+.infoPane{
+	width: 280px;
+	
+	background-color: black;
+
+	position: absolute;
+	z-index: 100;
+	top: 300px;
+	left: 50px;
+
+	border-radius: 10px;
+	display: none;
+	padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+	.infoPane{
+		display: none;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	.contentList{
+		height: 550px;
+		overflow-y: scroll;
+	}
+
+}
+
+.infoTitle{
+margin-top: 20px;
+}
+
+.header{
+	display: block;
+}
+
+html *
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #19a0e4; 
+}
+
+body {
+	background-color: #262626;
+}
+
+.loader{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+	margin-top: 30vh;
+}
+
+.content {
+	display: none;
+	top: 50px;
+	margin-top: 50px;
+}
+
+.watsonLogo{
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+}
+
+.watsonTitle{
+	display: inline-block;
+}
+
+.contentList{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 90%;
+	max-width: 700px;
+	border-left: 1px solid #19a0e4;
+	border-right: 1px solid #19a0e4;
+	/*height: 550px;*/
+	/*overflow-y: scroll;*/
+}
+
+.item{
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.separator {
+	width: 66%;
+	border-bottom: 1px solid #19a0e4;
+	margin: 0 auto;
+	display: block;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.description{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: darkgrey;
+}
+
+.copyright{
+	position: fixed;
+	bottom: 0px;
+	font-size: 60%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.portfolio {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+table.hor-minimalist-a
+{
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+table.hor-minimalist-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+table.hor-minimalist-a td
+{
+	padding: 9px 8px 0px 8px;
+}
+table.hor-minimalist-a tbody tr:hover td
+{
+}
+.articlebutton {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #ffffff;
+    border: 1px solid #19a0e4;
+    color: #19a0e4;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.articlebutton:hover {
+    background-color: #19a0e4;
+    color: #ffffff;
+}
+
+.login-form-wrap {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #262626;
+  font-family: 'Raleway', sans-serif;
+  
+  border: 1px solid #0a405b;
+  box-shadow: 0 2px #0a405b inset, 0 0 15px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+  width: 360px;
+  height: 390px;
+  margin: 60px auto;
+  padding: 50px 30px 0 30px;
+  text-align: center;
+}
+
+.login-form-wrap > h1 {
+  font-weight: bold;
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #19a0e4;
+}
+
+.login-form input[type="email"], .login-form input[type="password"] {
+  width: 100%;
+  border: 1px solid #19a0e4;
+  outline: none;
+  padding: 12px 20px;
+  color: #696969;
+  font-weight: 400;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.login-form input[type="email"] {
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  padding-bottom: 13px;
+  box-shadow: 0 -1px 0 #E0E0E0 inset, 0 1px 2px rgba(0, 0, 0, 0.23) inset;
+}
+.login-form input[type="password"] {
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.23) inset, 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+.login-form input[type="submit"] {
+  font-weight: 400;
+  background: #b3b3b3;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+  color:#073044;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+  font-weight: 700;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.17), 0 1px 0 rgba(255, 255, 255, 0.36) inset;
+}
+.login-form input[type="submit"]:hover {
+  background: #9c9c9c;
+}
+.login-form input[type="submit"]:active {
+  padding-top: 9px;
+  padding-bottom: 7px;
+  background: #C9C9C9;
+}
+
+/*
+    Formatting the network svg, network nodes and links
+*/
+svg.network{
+    background-color: #151515;
+}
+
+.link-line {
+    stroke: #ddd;
+    stroke-opacity: 0.6;
+}
+
+
+.node-circle {
+    cursor: pointer;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.node-circle-text {
+    fill:white;
+}
+        
+.node-label{
+    fill:white;
+
+}
+
+table.borders, th.borders, td.borders {
+    border: 1px solid #19a0e4;
+    border-collapse: collapse;
+}
+
+textarea.input{
+	display: inline-block;
+	flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+	overflow: auto;
+	overflow-x: hidden;
+	width: 95%;
+	min-height: 11em;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    font-weight: 300;
+    border: 0.1em solid #ececec;
+    background-color: #fff;
+}
+
+.hidden {
+    display:none;
+}
