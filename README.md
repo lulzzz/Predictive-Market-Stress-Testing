@@ -1,6 +1,6 @@
-# Stress Test Generation
+# Predictive Market Stress Testing
 
-In this developer journey, we will use three Bluemix finance services to create a web application which performs stress test generation on an investment portfolio. The Investment Portfolio service is used to load the portfolio into the interface. The Predictive Market Scenario service will generate a scenario csv using the risk factor and shock magnitude provided by the user. The Simulated Instrument Analytics service uses scenario csv with each holding in the portfolio to create a table displaying the current and stressed value of the investment holding.
+In this developer journey, we will use three Bluemix finance services to create a web application which performs stress test on an investment portfolio. The Investment Portfolio service is used to load the portfolio into the interface. The Predictive Market Scenario service will generate a scenario csv using the risk factor and shock magnitude provided by the user. The Simulated Instrument Analytics service uses scenario csv with each holding in the portfolio to create a table displaying the current and stressed value of the investment holding.
 
 When the reader has completed this journey, they will understand how to:
 
@@ -19,7 +19,7 @@ When the reader has completed this journey, they will understand how to:
 
 # Deploy to Bluemix
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/devops/setup/deploy?repository=https://github.com/raheelzubairy/Stress-Test-Generation)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/devops/setup/deploy?repository=https://github.com/raheelzubairy/Predictive-Market-Stress-Testing)
 
 Be sure to [load investment profile](#3-load-investment-portfolio) before running the application.
 
@@ -40,9 +40,9 @@ Follow these steps to setup and run this developer journey. The steps are descri
 
 ## 1. Clone the repo
 
-Clone the `stress-test-generation code` locally. In a terminal, run:
+Clone the `Predictive-Market-Stress-Testing code` locally. In a terminal, run:
 
-  `$ git clone https://github.com/raheelzubairy/Stress-Test-Generation.git`
+  `$ git clone https://github.com/raheelzubairy/Predictive-Market-Stress-Testing.git`
 
 
 ## 2. Create Bluemix services
@@ -60,7 +60,6 @@ You can load your Investment Portfolio using curl.
 For all these steps:
 - replace {service-user-id} the user id associated with your Investment Portfolio Service
 - replace {service-user_password} with the password associated with your Investment Portfolio Service
-
 
 i. Creating a portfolio entry in your Portfolio Investment Service:
 
